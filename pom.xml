@@ -124,12 +124,12 @@
 			<groupId>org.apache.derby</groupId>
 			<artifactId>derby</artifactId>
 			<version>${derby.version}</version>
-			<scope>provide</scope>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.activemq</groupId>
 			<artifactId>activemq-client</artifactId>
-			<version>${activemq.version}</version>
+			<version>${activemq.version}</version> 
 		</dependency>
 		<dependency>
 		    <groupId>org.apache.activemq</groupId>
